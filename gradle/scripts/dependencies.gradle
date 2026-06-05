@@ -38,6 +38,10 @@ dependencies {
     runtimeOnly 'com.cleanroommc:strip-latest-forge-requirements:1.0'
     // Include OSXNarratorBlocker by default for the dev env, for M1+ Macs
     runtimeOnly 'com.cleanroommc:osxnarratorblocker:1.0'
+    implementation rfg.deobf("curse.maven:alexs-mobs-legacy-1554241:8167821")
+    implementation rfg.deobf("curse.maven:had-enough-items-557549:7938914")
+    implementation rfg.deobf("curse.maven:farmers-delight-legacy-1517486:8165376")
+    implementation rfg.deobf("curse.maven:citadel-legacy-1554236:8155892")
 
     // Example - Dependency descriptor:
     // 'com.google.code.gson:gson:2.8.6' << group: com.google.code.gson, name:gson, version:2.8.6
