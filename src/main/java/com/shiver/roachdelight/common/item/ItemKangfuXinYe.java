@@ -19,6 +19,7 @@ public class ItemKangfuXinYe extends ItemFood {
         super(0, 0.0F, false);
         this.setMaxStackSize(1);
         this.setContainerItem(Items.GLASS_BOTTLE);
+        this.setAlwaysEdible();
     }
 
     @Override
